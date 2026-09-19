@@ -1,0 +1,9 @@
+id,nome,cultura,localizacao,proprietario,telefone,email,data_contato,confirmado,data_coleta_planejada,data_coleta_real,imagens_coletadas,imagens_aceitas,taxa_aceitacao,status,observacoes
+PROP_001,Propriedade A - Soja,Soja,Londrina - Norte,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_002,Propriedade B - Soja,Soja,Londrina - Sul,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_003,Propriedade C - Soja,Soja,Londrina - Leste,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_004,Propriedade D - Milho,Milho,Londrina - Oeste,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_005,Propriedade E - Milho,Milho,Londrina - Centro,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_006,Propriedade F - Café Robusta,Café,Londrina - Norte,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_007,Propriedade G - Café Arábica,Café,Londrina - Sul,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,
+PROP_008,Propriedade H - Soja + Milho,Mista,Londrina - Leste,[NOME],[TELEFONE],[EMAIL],,⏳,,,0,0,0%,⏳ Pendente contato,

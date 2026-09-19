@@ -1,0 +1,60 @@
+
+RASTREAMENTO DIÁRIO DE COLETA - FASE 4
+Data: __/__/____
+Propriedade: ________________
+Técnico: ________________
+Agrônomo: ________________
+
+═══════════════════════════════════════════════════════════════════
+
+RESUMO DO DIA:
+
+Total de imagens coletadas: ____
+Total de imagens aceitas: ____
+Taxa de aceitação: _____%
+
+Distribuição por classe:
+  ☐ Saudável: ____ imagens
+  ☐ Doença leve: ____ imagens
+  ☐ Doença moderada: ____ imagens
+  ☐ Doença severa: ____ imagens
+
+═══════════════════════════════════════════════════════════════════
+
+PROBLEMAS ENCONTRADOS:
+
+☐ Nenhum
+☐ Iluminação inadequada
+☐ Smartphone com bateria baixa
+☐ Discordância validadores
+☐ Imagens borradas
+☐ Dificuldade GPS
+☐ Outro: ________________
+
+Ação corretiva: ________________
+
+═══════════════════════════════════════════════════════════════════
+
+BACKUP REALIZADO:
+
+☐ Sim - Disco externo 1: ✅ 
+☐ Sim - Disco externo 2: ✅
+☐ Sim - Nuvem: ✅
+☐ Não - Motivo: ________________
+
+═══════════════════════════════════════════════════════════════════
+
+OBSERVAÇÕES:
+
+[Escrever observações sobre a coleta]
+
+═══════════════════════════════════════════════════════════════════
+
+PRÓXIMAS AÇÕES:
+
+☐ Contato com próxima propriedade
+☐ Processamento de dados
+☐ Validação de discordâncias
+☐ Ajuste de protocolo
+
+═══════════════════════════════════════════════════════════════════
