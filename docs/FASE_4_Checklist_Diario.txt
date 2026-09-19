@@ -1,0 +1,117 @@
+
+CHECKLIST DIÁRIO - COLETA DE DADOS FASE 4
+═══════════════════════════════════════════════════════════════════
+
+ANTES DE SAIR (Verificar 1 hora antes):
+
+Equipamento:
+  ☐ Smartphone 100% bateria (ou carregador extra)
+  ☐ Verificar app GPS está funcionando
+  ☐ Verificar app de câmera com metadados
+  ☐ Testar tirar 1 foto de teste
+  ☐ Tripé/suporte na mochila
+  ☐ Cabos/carregadores na mochila
+
+Documentação:
+  ☐ Protocolo de coleta impresso (10 cópias)
+  ☐ Planilha de rastreamento em mão
+  ☐ Caderno + caneta preta + caneta vermelha
+  ☐ Etiquetas para identificar fotos
+
+Proteção/Higiene:
+  ☐ Álcool gel
+  ☐ Luvas descartáveis
+  ☐ Protetor solar
+  ☐ Chapéu/boné
+  ☐ Garrafa de água
+
+Backup:
+  ☐ Disco externo 1 (vazio, 2TB)
+  ☐ Disco externo 2 (backup, 2TB)
+  ☐ Cabo USB para transferência
+  ☐ Mochila com proteção contra água/poeira
+
+Confirmação:
+  ☐ Ligou para proprietário (confirmar hora)
+  ☐ Rota planejada (GPS)
+  ☐ Tempo de viagem estimado: ___ minutos
+  ☐ Parou para combustível? ☐ Sim ☐ Não
+
+═══════════════════════════════════════════════════════════════════
+
+DURANTE COLETA (A cada 20 imagens):
+
+Qualidade de Foto:
+  ☐ Imagens com foco claro (não borradas)
+  ☐ Folha/fruto visível (não escondido)
+  ☐ Lesão (se houver) em boa posição
+  ☐ GPS capturando localização
+  ☐ Ângulos variados (perpendicular, 45°, 30°)
+
+Metadados:
+  ☐ Timestamp sendo registrado
+  ☐ Severidade anotada (0/1/2/3)
+  ☐ Validação dupla iniciada (agrônomo + técnico)
+  ☐ Discordâncias sendo documentadas
+
+Backup em Tempo Real:
+  ☐ A cada 50 imagens: backup em disco externo 1
+  ☐ Verificar integridade dos arquivos
+
+═══════════════════════════════════════════════════════════════════
+
+APÓS COLETA (Fim do dia):
+
+Transferência de Dados:
+  ☐ Conectar smartphone ao computador
+  ☐ Copiar todas as imagens + metadados
+  ☐ Salvar em: data/campo_2026/raw/[propriedade]/
+  ☐ Verificar integridade (nenhum arquivo corrompido)
+
+Backup Triplo:
+  ☐ Backup 1: Disco externo USB 1 ✓
+  ☐ Backup 2: Disco externo USB 2 ✓
+  ☐ Backup 3: Google Drive/Nuvem ✓
+  ☐ Verificar 3 cópias estão íntegras
+
+Processamento:
+  ☐ Rodar script de validação:
+    python scripts/process_field_images.py
+  ☐ Gerar relatório de qualidade
+  ☐ Verificar taxa de aceitação (>95%?)
+
+Documentação:
+  ☐ Preencher planilha de progresso
+  ☐ Preencher template de coleta diária
+  ☐ Atualizar checklist de propriedades
+  ☐ Enviar relatório para equipe
+
+Limpeza:
+  ☐ Limpar smartphone (liberar espaço)
+  ☐ Carregar smartphone para próximo dia
+  ☐ Guardar discos externos em local seguro
+  ☐ Organizar documentação
+
+═══════════════════════════════════════════════════════════════════
+
+COMUNICAÇÃO (Fim do dia):
+
+  ☐ Enviar email para equipe com:
+    - Número de imagens coletadas
+    - Taxa de aceitação
+    - Problemas encontrados
+    - Ações para amanhã
+
+  ☐ Atualizar grupo WhatsApp/Slack
+
+  ☐ Enviar agradecimento ao proprietário
+
+═══════════════════════════════════════════════════════════════════
+
+ASSINATURAS:
+
+Técnico de Coleta: ________________  Data: __/__/____
+Agrônomo Validador: ________________  Data: __/__/____
+Responsável Backup: ________________  Data: __/__/____
+
+═══════════════════════════════════════════════════════════════════
