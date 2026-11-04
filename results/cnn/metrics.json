@@ -1,0 +1,7 @@
+{
+  "model": "CNN_MobileNetV2",
+  "epochs": 25,
+  "best_val_acc": 0.9888888888888889,
+  "test_acc": 0.9444444444444444,
+  "params": 2553350
+}
