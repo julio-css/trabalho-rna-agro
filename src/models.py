@@ -10,12 +10,12 @@ import torchvision.models as models
 class MLPBaseline(nn.Module):
     """
     MLP Baseline para classificação de doenças em plantas
-    
-    Entrada: Imagens 64x64 achatadas (4096 features)
+
+    Entrada: Imagens 64x64x3 achatadas (12288 features)
     Saída: Probabilidades para cada classe
     """
-    
-    def __init__(self, input_size=64*64, hidden_size=256, num_classes=10):
+
+    def __init__(self, input_size=64*64*3, hidden_size=256, num_classes=10):
         super(MLPBaseline, self).__init__()
         
         self.flatten = nn.Flatten()

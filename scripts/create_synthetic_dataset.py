@@ -114,18 +114,21 @@ def create_dataset():
                 with open(ppm_path, "wb") as f:
                     f.write(ppm_data)
                 
-                # Tentar converter para JPG com ImageMagick
+                # Converter PPM para JPG usando PIL
                 try:
-                    os.system(f"convert '{ppm_path}' '{class_dir / f'{idx:04d}.jpg'}' 2>/dev/null")
+                    from PIL import Image
+                    img = Image.open(ppm_path)
+                    img.save(class_dir / f"{idx:04d}.jpg", "JPEG")
                     os.remove(ppm_path)
-                except:
+                except ImportError:
+                    # PIL não disponível, manter PPM
                     pass
                 
                 total += 1
             
-            print(f"✓ {num_per_class}")
-    
-    print(f"\n✓ Dataset criado com sucesso!")
+            print(f"OK {num_per_class}")
+
+    print(f"\nOK Dataset criado com sucesso!")
     print(f"Total: {total} imagens")
 
 

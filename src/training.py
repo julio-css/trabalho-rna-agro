@@ -75,7 +75,7 @@ class Trainer:
             total_correct += (predicted == labels).sum().item()
             total_samples += labels.size(0)
             
-            pbar.set_postfix({"loss": loss.item():.4f})
+            pbar.set_postfix({"loss": f"{loss.item():.4f}"})
         
         avg_loss = total_loss / total_samples
         avg_acc = total_correct / total_samples
@@ -106,7 +106,7 @@ class Trainer:
                 total_correct += (predicted == labels).sum().item()
                 total_samples += labels.size(0)
                 
-                pbar.set_postfix({"loss": loss.item():.4f})
+                pbar.set_postfix({"loss": f"{loss.item():.4f}"})
         
         avg_loss = total_loss / total_samples
         avg_acc = total_correct / total_samples
@@ -161,7 +161,7 @@ class Trainer:
                 best_epoch = epoch
                 checkpoint_path = save_dir / "best_model.pth"
                 torch.save(self.model.state_dict(), checkpoint_path)
-                print(f"  → Melhor modelo salvo (Acurácia: {val_acc:.4f})")
+                print(f"  -> Melhor modelo salvo (Acuracia: {val_acc:.4f})")
         
         print(f"\n{'='*70}")
         print(f"Treinamento concluído!")
