@@ -1,0 +1,7 @@
+{
+  "model": "MLP",
+  "epochs": 20,
+  "best_val_acc": 1.0,
+  "test_acc": 1.0,
+  "params": 3179654
+}
