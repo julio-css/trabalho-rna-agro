@@ -1,0 +1,26 @@
+{
+  "model": "CNN",
+  "baseline": 0.8888888888888888,
+  "experiments": [
+    {
+      "noise_ratio": 0.0,
+      "accuracy": 0.8888888888888888
+    },
+    {
+      "noise_ratio": 0.05,
+      "accuracy": 0.8888888888888888
+    },
+    {
+      "noise_ratio": 0.1,
+      "accuracy": 0.8888888888888888
+    },
+    {
+      "noise_ratio": 0.2,
+      "accuracy": 0.8888888888888888
+    },
+    {
+      "noise_ratio": 0.3,
+      "accuracy": 0.8888888888888888
+    }
+  ]
+}
